@@ -3,7 +3,7 @@ const express = require("express");
 const redis = require("redis");
 
 const app = express();
-const port = 3001;
+const port = 800;
 const redisPort = 6379;
 
 class Server {
