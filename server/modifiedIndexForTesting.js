@@ -18,7 +18,6 @@ class Server {
     this.client = client;
   }
 
-  // ... Rest of your server code ...
 
   listen() {
     app.listen(port, () => {
