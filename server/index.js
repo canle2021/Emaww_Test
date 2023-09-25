@@ -2,7 +2,7 @@ const express = require("express");
 const redis = require("redis");
 
 const app = express();
-const port = 3001;
+const port = 8000;
 const redisPort = 6379;
 
 const client = redis.createClient(redisPort);
